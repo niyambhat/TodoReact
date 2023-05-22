@@ -1,5 +1,5 @@
 const API_BASE_URL_DEVELOPMENT = 'https://localhost:7155';
-const API_BASE_URL_PRODUCTION = 'https://netcorecrud.azurewebsites.net/';
+const API_BASE_URL_PRODUCTION = 'https://netcorecrud.azurewebsites.net';
 
 const ENDPOINTS = {
     GET_ALL_POSTS: 'get-all-posts',
