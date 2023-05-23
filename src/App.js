@@ -9,7 +9,7 @@ export default function App() {
   const [postCurrentlyBeingUpdated, setPostCurrentlyBeingUpdated] = useState(null);
 
   function getPosts() {
-    const url = Constants.API_URL_GET_ALL_POSTS;
+    const url = "https://netcorecrud.azurewebsites.net/get-all-posts";
 
     fetch(url, {
       method: 'GET'
